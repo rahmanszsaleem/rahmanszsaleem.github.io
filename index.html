@@ -191,6 +191,78 @@
 
 
 
+
+
+
+ <hr>
+    
+<p><a href="link">text</a> </p>
+
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<p>Some recent profile highlights and videos</p>
+
+<div class="row">
+  <div class="column">
+   <a href="https://lums.edu.pk/news/conversation-dr-rahman-shah-zaib-saleem-awardee-vice-chancellors-award-teaching-excellence">
+<img src="assets/files/Picture1.png"  width="160" height="90">
+</a>  </div>
+  <div class="column">
+    <a href="https://www.youtube.com/watch?v=sC3NJUaCRuQ&ab_channel=RahmanSaleem">
+<img src="assets/files/Picture3.png"  width="160" height="90">
+</a> </div>
+
+  <div class="column">
+    
+<a href="https://www.facebook.com/100064440589609/videos/pcb.650343307123683/3429474067267682">
+<img src="assets/files/Picture2.png"  width="160" height="90">
+</a>  </div>
+  <div class="column">
+    <a href="https://www.youtube.com/watch?v=rih2L6jOUXg"">
+<img src="assets/files/Picture4.png"  width="160" height="90">
+</a>  </div>
+</div>
+
+
+
+
+
+  
+  
+
+  
+
+
     
 
   </main>
