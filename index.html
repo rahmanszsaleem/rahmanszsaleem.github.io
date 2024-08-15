@@ -101,16 +101,72 @@
 </a>
 
 
+
+    
    
 </div>
- <hr>
+
+
+/* chemical libraries */
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<p>Some recent profile highlights and videos</p>
+
+<div class="row">
+  <div class="column">
+   <a href="https://orgchem.lums.edu.pk/index.php/research/">
+<img src="assets/files/Picture5.png"  width="160" height="90">
+</a>  </div>
+  <div class="column">
+    <a href="https://orgchem.lums.edu.pk/index.php/research/">
+<img src="assets/files/Picture5.png"  width="160" height="90">
+</a> </div>
+
+  <div class="column">
     
-<p><a href="link">text</a> </p>
+<a href="https://orgchem.lums.edu.pk/index.php/research/">
+<img src="assets/files/Picture5.png"  width="160" height="90">
+</a>  </div>
+  <div class="column">
+    <a href="https://orgchem.lums.edu.pk/index.php/research/">
+<img src="assets/files/Picture5.png"  width="160" height="90">
+</a>  </div>
+</div>
 
 
 
 
+    
+    <hr>
+    
 
+/* videos at bottom */
 <style>
 * {
   box-sizing: border-box;
@@ -157,7 +213,7 @@
 <img src="assets/files/Picture2.png"  width="160" height="90">
 </a>  </div>
   <div class="column">
-    <a href="https://www.youtube.com/watch?v=rih2L6jOUXg"">
+    <a href="https://www.youtube.com/watch?v=rih2L6jOUXg">
 <img src="assets/files/Picture4.png"  width="160" height="90">
 </a>  </div>
 </div>
